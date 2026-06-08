@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Waives the built-in authenticator / MFA enrollment prompt at UI login for demo-org service and automation users. Grants the &quot;Waive Multi-Factor Authentication for Exempt Users&quot; system permission. Intended for non-production demo orgs only.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>xDO Waive MFA (Demo Only)</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>BypassMFAForUiLogins</name>
+    </userPermissions>
+</PermissionSet>
